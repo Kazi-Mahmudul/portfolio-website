@@ -1,9 +1,8 @@
 document.addEventListener("DOMContentLoaded", function () {
-  // Initialize Swiper.js with locked layout
   const swiper = new Swiper(".projects-carousel", {
       slidesPerView: 3,
       spaceBetween: 30,
-      loop: false, // Prevent looping issues
+      loop: false, 
       navigation: {
           nextEl: ".swiper-button-next",
           prevEl: ".swiper-button-prev",
@@ -12,8 +11,8 @@ document.addEventListener("DOMContentLoaded", function () {
           el: ".swiper-pagination",
           clickable: true,
       },
-      autoHeight: false, // Disable auto height to prevent shifting
-      allowTouchMove: false, // Prevent user dragging from breaking layout
+      autoHeight: false, 
+      allowTouchMove: false, 
       breakpoints: {
           320: { slidesPerView: 1 },
           768: { slidesPerView: 2 },
@@ -33,30 +32,22 @@ document.addEventListener("DOMContentLoaded", function () {
               moreText.style.display = "none";
               button.textContent = "Read More";
               card.classList.remove("expanded");
-
-              // Restore all cards to the same height
               allCards.forEach(c => c.style.height = "500px");
-
-              // 🔹 Force Swiper to not adjust its layout
               swiper.update();
           } else {
-              // Close all expanded cards before opening a new one
               allCards.forEach((c) => {
                   c.classList.remove("expanded");
                   c.querySelector(".more-text").style.display = "none";
                   c.querySelector(".read-more-btn").textContent = "Read More";
-                  c.style.height = "500px"; // Reset height
+                  c.style.height = "500px"; 
               });
 
               moreText.style.display = "inline";
               button.textContent = "Read Less";
               card.classList.add("expanded");
-
-              // Expand height only for the clicked card
               card.style.height = "auto";
 
-              // 🔹 Prevent Swiper from shifting slides
-              setTimeout(() => swiper.update(), 300); // Delayed update prevents shifting
+              setTimeout(() => swiper.update(), 300);
           }
       });
   });
