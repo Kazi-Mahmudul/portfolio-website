@@ -52,3 +52,14 @@ document.addEventListener("DOMContentLoaded", function () {
       });
   });
 });
+function showCategory(category) {
+    document.getElementById("category-container").classList.add("hidden");
+    document.getElementById("certificates-container").classList.remove("hidden");
+    document.querySelectorAll(".cert-category").forEach(el => el.classList.add("hidden"));
+    document.getElementById(category).classList.remove("hidden");
+  }
+
+  function goBack() {
+    document.getElementById("category-container").classList.remove("hidden");
+    document.getElementById("certificates-container").classList.add("hidden");
+}

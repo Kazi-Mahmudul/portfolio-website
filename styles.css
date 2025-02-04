@@ -347,16 +347,33 @@ body {
   border: 1px solid rgba(58, 123, 127, 0.1);
   border-radius: 8px;
 }
-
 /*Certificates*/
 .certs-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   gap: 1.5rem;
 }
-
+.category-card {
+  background: #3A7B7F;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+.category-icon {
+  width: 36px;
+  height: 36px;
+  object-fit: contain;
+}
 .cert-card {
   display: flex;
+  flex-direction: column;
   align-items: center;
   gap: 1rem;
   padding: 1rem;
@@ -364,13 +381,28 @@ body {
   border-radius: 8px;
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
 }
-
 .cert-card img {
-  width: 60px;
-  height: 60px;
+  width: 600px;
+  height: 400px;
   object-fit: contain;
 }
-
+.hidden {
+  display: none;
+}
+.back-button {
+  background: #6B9080;
+  color: white;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-bottom: 1rem;
+  width: 100px;
+  height: 40px;
+  font-size: 16px;
+  display: block;
+  margin: 0 auto 1rem auto;
+}
 .timeline-item > * + * {
   margin-top: 5px;
 }

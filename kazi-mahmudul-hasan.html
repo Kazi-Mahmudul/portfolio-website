@@ -316,7 +316,19 @@
           <div class="exp-item">
             <h3>Tutor - Mathematics and Science</h3>
             <div class="exp-date">Jan 2022 - Present</div>
-            <p>Providing personalized tutoring with a focus on problem-solving and conceptual clarity. Currently tutoring a student in the <span style="font-weight: 600;">Netherlands</span> remotely, using virtual tools for interactive and engaging learning. I tutor students across different grade levels, including those in the science faculty, tailoring lessons to their needs. Through my guidance, students have improved their performance in exams, strengthening their understanding and confidence in the subjects. This experience enhances my communication, adaptability, and analytical skills, making me effective in collaborative environments.</p>
+            <p>
+              Providing personalized tutoring with a focus on problem-solving
+              and conceptual clarity. Currently tutoring a student in the
+              <span style="font-weight: 600">Netherlands</span> remotely, using
+              virtual tools for interactive and engaging learning. I tutor
+              students across different grade levels, including those in the
+              science faculty, tailoring lessons to their needs. Through my
+              guidance, students have improved their performance in exams,
+              strengthening their understanding and confidence in the subjects.
+              This experience enhances my communication, adaptability, and
+              analytical skills, making me effective in collaborative
+              environments.
+            </p>
             <div class="skill-tags">
               <span>Communication</span>
               <span>Mentorship</span>
@@ -330,23 +342,222 @@
       </section>
       <!-- Certifications -->
       <section id="certifications">
-        <h2 class="section-title">Certifications</h2>
-        <div class="certs-grid">
-          <div class="cert-card">
-            <img src="google-data-cert.png" alt="Google Data Analytics" />
-            <div class="cert-info">
-              <h4>Google Data Analytics</h4>
-              <p>Coursera · 2023</p>
+        <h2 class="project-header">Certifications</h2>
+        <div id="category-container" class="certs-grid">
+          <div class="category-card" onclick="showCategory('sql')">
+            <img
+              src="https://i.postimg.cc/MZgHWGp6/klipartz-com.png"
+              alt="SQL Icon"
+              class="category-icon"
+            />
+            SQL
+          </div>
+          <div class="category-card" onclick="showCategory('excel')">
+            <img
+              src="https://i.postimg.cc/4yH3zDBR/pngwing-com.png"
+              alt="Excel Icon"
+              class="category-icon"
+            />
+            Excel
+          </div>
+          <div class="category-card" onclick="showCategory('powerbi')">
+            <img
+              src="https://i.postimg.cc/1RV7ZbDm/Power-BI-300x300.png"
+              alt="Power BI Icon"
+              class="category-icon"
+            />
+            Power BI
+          </div>
+          <div class="category-card" onclick="showCategory('python')">
+            <img
+              src="https://i.postimg.cc/Qx43X4bp/054441c0f2435a5ce541507e86f59fd5.png"
+              alt="Python Icon"
+              class="category-icon"
+            />
+            Python
+          </div>
+        </div>
+
+        <div id="certificates-container" class="certs-grid hidden">
+          <button class="back-button" onclick="goBack()">Back</button>
+          <div id="sql" class="cert-category hidden">
+            <div class="cert-card">
+              <img
+                src="https://i.postimg.cc/v8vgDZr3/Intro-to-SQL-Certificate-page-0001.jpg"
+                alt="SQL Cert"
+              />
+              <div class="cert-info">
+                <h4>Introduction to SQL</h4>
+                <p>DataCamp · 2024</p>
+              </div>
+            </div>
+            <div class="cert-card">
+              <img
+                src="https://i.postimg.cc/Y2V9vL4N/Intermediate-SQL-certificate-page-0001.jpg"
+                alt="SQL Cert"
+              />
+              <div class="cert-info">
+                <h4>Intermediate SQL</h4>
+                <p>DataCamp · 2024</p>
+              </div>
+            </div>
+            <div class="cert-card">
+              <img
+                src="https://i.postimg.cc/VLCNnsMx/Joining-Data-in-SQL-certificate-page-0001.jpg"
+                alt="SQL Cert"
+              />
+              <div class="cert-info">
+                <h4>Joining Data in SQL</h4>
+                <p>DataCamp · 2024</p>
+              </div>
+            </div>
+            <div class="cert-card">
+              <img
+                src="https://i.postimg.cc/K8h8NXDR/Data-Manipulation-in-SQL-certificate-page-0001.jpg"
+                alt="SQL Cert"
+              />
+              <div class="cert-info">
+                <h4>Data Manipulation in SQL</h4>
+                <p>DataCamp · 2024</p>
+              </div>
             </div>
           </div>
-          <div class="cert-card">
-            <img src="power-bi-cert.png" alt="Power BI Expert" />
-            <div class="cert-info">
-              <h4>Power BI Specialist</h4>
-              <p>Udemy · 2023</p>
+          <div id="excel" class="cert-category hidden">
+            <div class="cert-card">
+              <img
+                src="https://i.postimg.cc/6QyRsJFt/ex-intr-certificate-page-0001.jpg"
+                alt="Excel Cert"
+              />
+              <div class="cert-info">
+                <h4>Introduction to Excel</h4>
+                <p>DataCamp · 2024</p>
+              </div>
+            </div>
+            <div class="cert-card">
+              <img
+                src="https://i.postimg.cc/QCrWWBCd/excel-data-analysis-certificate-page-0001.jpg"
+                alt="Excel Cert"
+              />
+              <div class="cert-info">
+                <h4>Data Analysis in Excel</h4>
+                <p>DataCamp · 2024</p>
+              </div>
+            </div>
+            <div class="cert-card">
+              <img
+                src="https://i.postimg.cc/XqcBKVBc/excel-data-visualization-certificate-page-0001.jpg"
+                alt="Excel Cert"
+              />
+              <div class="cert-info">
+                <h4>Data Visualization in Excel</h4>
+                <p>DataCamp · 2024</p>
+              </div>
+            </div>
+            <div class="cert-card">
+              <img
+                src="https://i.postimg.cc/ncpDFQNd/data-prep-excel-certificate-page-0001.jpg"
+                alt="Excel Cert"
+              />
+              <div class="cert-info">
+                <h4>Data Preparation in Excel</h4>
+                <p>DataCamp · 2024</p>
+              </div>
             </div>
           </div>
-          <!-- Add more cert cards -->
+          <div id="powerbi" class="cert-category hidden">
+            <div class="cert-card">
+              <img
+                src="https://i.postimg.cc/d0bhz78j/Introduction-to-Power-BI-certificate-page-0001.jpg"
+                alt="Power BI Cert"
+              />
+              <div class="cert-info">
+                <h4>Introduction to Power BI</h4>
+                <p>DataCamp · 2024</p>
+              </div>
+            </div>
+            <div class="cert-card">
+              <img
+                src="https://i.postimg.cc/mkwhz8Km/Data-Preparation-in-Power-BI-certificate-page-0001.jpg"
+                alt="Power BI Cert"
+              />
+              <div class="cert-info">
+                <h4>Data Preparation in Power BI</h4>
+                <p>DataCamp · 2024</p>
+              </div>
+            </div>
+            <div class="cert-card">
+              <img
+                src="https://i.postimg.cc/MZbnFpX1/Data-Connections-in-Power-BI-Certificate-page-0001.jpg"
+                alt="Power BI Cert"
+              />
+              <div class="cert-info">
+                <h4>Data Connection in Power BI</h4>
+                <p>DataCamp · 2024</p>
+              </div>
+            </div>
+            <div class="cert-card">
+              <img
+                src="https://i.postimg.cc/FsT7hCyR/Data-Modeling-in-Power-BI-Certificate-page-0001.jpg"
+                alt="Power BI Cert"
+              />
+              <div class="cert-info">
+                <h4>Data Modeling in Power BI</h4>
+                <p>DataCamp · 2024</p>
+              </div>
+            </div>
+            <div class="cert-card">
+              <img
+                src="https://i.postimg.cc/t477Jdkz/Data-Visualization-in-Power-BI-Certificate-page-0001.jpg"
+                alt="Power BI Cert"
+              />
+              <div class="cert-info">
+                <h4>Data Visualization in Power BI</h4>
+                <p>DataCamp · 2024</p>
+              </div>
+            </div>
+          </div>
+          <div id="python" class="cert-category hidden">
+            <div class="cert-card">
+              <img
+                src="https://i.postimg.cc/PJfF8H42/Introduction-to-Python-Certificate-page-0001.jpg"
+                alt="Python Cert"
+              />
+              <div class="cert-info">
+                <h4>Introduction to Python</h4>
+                <p>DataCamp · 2024</p>
+              </div>
+            </div>
+            <div class="cert-card">
+              <img
+                src="https://i.postimg.cc/3NwnxB8q/Intermediate-Python-Certificate-page-0001.jpg"
+                alt="Python Cert"
+              />
+              <div class="cert-info">
+                <h4>Intermediate Python</h4>
+                <p>DataCamp · 2024</p>
+              </div>
+            </div>
+            <div class="cert-card">
+              <img
+                src="https://i.postimg.cc/W3Y0XPV9/Data-Manipulation-with-Pandas-Certificate-page-0001.jpg"
+                alt="Python Cert"
+              />
+              <div class="cert-info">
+                <h4>Data Manipulation with Pandas</h4>
+                <p>DataCamp · 2024</p>
+              </div>
+            </div>
+            <div class="cert-card">
+              <img
+                src="https://i.postimg.cc/rmsrdY45/Joining-Data-with-Pandas-page-0001.jpg"
+                alt="Python Cert"
+              />
+              <div class="cert-info">
+                <h4>Joining Data with Pandas</h4>
+                <p>DataCamp · 2024</p>
+              </div>
+            </div>
+          </div>
         </div>
       </section>
     </div>
