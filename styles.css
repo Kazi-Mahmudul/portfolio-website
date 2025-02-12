@@ -66,6 +66,43 @@ body {
   margin-left: 500px;
   padding: 4rem;
 }
+/*Education*/
+.education-timeline {
+  position: relative;
+  padding-left: 2rem;
+  border-left: 4px solid #3A7B7F; /* Teal-colored timeline */
+  margin-top: 1.5rem;
+}
+
+.timeline-item {
+  position: relative;
+  background: white;
+  padding: 1.2rem;
+  margin-bottom: 1.5rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.timeline-item h4 {
+  font-size: 1.4rem;
+  font-weight: bold;
+  color: #3A7B7F;
+}
+
+.timeline-item p {
+  font-size: 1rem;
+  margin: 0.3rem 0;
+  color: #555;
+}
+
+.thesis-notice {
+  font-style: italic;
+  background: #F9FBFB;
+  padding: 1rem;
+  border-radius: 8px;
+  margin-top: 0.5rem;
+  border-left: 4px solid #6B9080;
+}
 
 /* Projects Section */
 .project-card {
@@ -235,30 +272,6 @@ body {
 .link-btn i {
   font-size: 1.2rem;
 }
-
-/* New: Tutoring Experience Section */
-.teaching-timeline {
-  border-left: 2px solid var(--secondary);
-  padding-left: 2rem;
-  margin: 2rem 0;
-}
-
-.teaching-item {
-  position: relative;
-  margin-bottom: 2rem;
-  padding: 1rem;
-  background: rgba(164, 194, 180, 0.1);
-  border-radius: 6px;
-}
-
-.teaching-item::before {
-  content: "📚";
-  position: absolute;
-  left: -2.4rem;
-  top: 0;
-  font-size: 1.2rem;
-}
-
 /* Experience Timeline */
 .exp-timeline {
   border-left: 2px solid var(--primary);
@@ -382,10 +395,18 @@ body {
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
 }
 .cert-card img {
-  width: 600px;
-  height: 400px;
+  width: 100%;
+  max-width: 600px;
+  height: auto;
+  max-height: 400px;
   object-fit: contain;
+  transition: transform 0.3s ease-in-out;
 }
+
+.cert-card img:hover {
+  transform: scale(1.05);
+}
+
 .hidden {
   display: none;
 }
@@ -427,6 +448,70 @@ body {
   color: white;
 }
 
+/*footer*/
+.footer {
+  background: #3A7B7F;
+  color: white;
+  text-align: center;
+  padding: 2rem 1rem;
+  margin-top: 2rem;
+  width: calc(100% - 500px);
+  margin-left: auto;
+}
+
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  height: 150px;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.footer-branding h3 {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+.footer_flex{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.footer-links a{
+  margin-left: 8px;
+}
+
+.footer-links a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+.footer-links a:hover {
+  color: #A4C2B4;
+}
+
+.footer-socials a i {
+  width: 30px;
+  margin: 0 0.5rem;
+  transition: transform 0.3s;
+  color: white;
+  font-size: 1.2rem;
+}
+
+.footer-socials a img:hover {
+  transform: scale(1.1);
+}
+
+.footer-copy {
+  margin-top: 1rem;
+  font-size: 0.9rem;
+  opacity: 0.8;
+}
+
+
 @media (max-width: 768px) {
   .left-panel {
     position: relative;
@@ -438,5 +523,13 @@ body {
   .right-panel {
     margin-left: 0;
     padding: 2rem;
+  }
+  .footer {
+    width: 100%;
+    margin-left: 0;
+  }
+  .cert-card img {
+    max-width: 100%;
+    max-height: 300px;
   }
 }
