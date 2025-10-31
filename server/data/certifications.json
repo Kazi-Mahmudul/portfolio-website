@@ -1,0 +1,35 @@
+{
+  "categories": [
+    { "id": "sql", "name": "SQL", "icon": "https://i.postimg.cc/MZgHWGp6/klipartz-com.png" },
+    { "id": "excel", "name": "Excel", "icon": "https://i.postimg.cc/4yH3zDBR/pngwing-com.png" },
+    { "id": "powerbi", "name": "Power BI", "icon": "https://i.postimg.cc/1RV7ZbDm/Power-BI-300x300.png" },
+    { "id": "python", "name": "Python", "icon": "https://i.postimg.cc/Qx43X4bp/054441c0f2435a5ce541507e86f59fd5.png" }
+  ],
+  "certificates": {
+    "sql": [
+      { "id": 1, "title": "Introduction to SQL", "issuer": "DataCamp · 2024", "image": "https://i.postimg.cc/v8vgDZr3/Intro-to-SQL-Certificate-page-0001.jpg" },
+      { "id": 2, "title": "Intermediate SQL", "issuer": "DataCamp · 2024", "image": "https://i.postimg.cc/Y2V9vL4N/Intermediate-SQL-certificate-page-0001.jpg" },
+      { "id": 3, "title": "Joining Data in SQL", "issuer": "DataCamp · 2024", "image": "https://i.postimg.cc/VLCNnsMx/Joining-Data-in-SQL-certificate-page-0001.jpg" },
+      { "id": 4, "title": "Data Manipulation in SQL", "issuer": "DataCamp · 2024", "image": "https://i.postimg.cc/K8h8NXDR/Data-Manipulation-in-SQL-certificate-page-0001.jpg" }
+    ],
+    "excel": [
+      { "id": 1, "title": "Introduction to Excel", "issuer": "DataCamp · 2024", "image": "https://i.postimg.cc/6QyRsJFt/ex-intr-certificate-page-0001.jpg" },
+      { "id": 2, "title": "Data Analysis in Excel", "issuer": "DataCamp · 2024", "image": "https://i.postimg.cc/QCrWWBCd/excel-data-analysis-certificate-page-0001.jpg" },
+      { "id": 3, "title": "Data Visualization in Excel", "issuer": "DataCamp · 2024", "image": "https://i.postimg.cc/XqcBKVBc/excel-data-visualization-certificate-page-0001.jpg" },
+      { "id": 4, "title": "Data Preparation in Excel", "issuer": "DataCamp · 2024", "image": "https://i.postimg.cc/ncpDFQNd/data-prep-excel-certificate-page-0001.jpg" }
+    ],
+    "powerbi": [
+      { "id": 1, "title": "Introduction to Power BI", "issuer": "DataCamp · 2024", "image": "https://i.postimg.cc/d0bhz78j/Introduction-to-Power-BI-certificate-page-0001.jpg" },
+      { "id": 2, "title": "Data Preparation in Power BI", "issuer": "DataCamp · 2024", "image": "https://i.postimg.cc/mkwhz8Km/Data-Preparation-in-Power-BI-certificate-page-0001.jpg" },
+      { "id": 3, "title": "Data Connection in Power BI", "issuer": "DataCamp · 2024", "image": "https://i.postimg.cc/MZbnFpX1/Data-Connections-in-Power-BI-Certificate-page-0001.jpg" },
+      { "id": 4, "title": "Data Modeling in Power BI", "issuer": "DataCamp · 2024", "image": "https://i.postimg.cc/FsT7hCyR/Data-Modeling-in-Power-BI-Certificate-page-0001.jpg" },
+      { "id": 5, "title": "Data Visualization in Power BI", "issuer": "DataCamp · 2024", "image": "https://i.postimg.cc/t477Jdkz/Data-Visualization-in-Power-BI-Certificate-page-0001.jpg" }
+    ],
+    "python": [
+      { "id": 1, "title": "Introduction to Python", "issuer": "DataCamp · 2024", "image": "https://i.postimg.cc/PJfF8H42/Introduction-to-Python-Certificate-page-0001.jpg" },
+      { "id": 2, "title": "Intermediate Python", "issuer": "DataCamp · 2024", "image": "https://i.postimg.cc/3NwnxB8q/Intermediate-Python-Certificate-page-0001.jpg" },
+      { "id": 3, "title": "Data Manipulation with Pandas", "issuer": "DataCamp · 2024", "image": "https://i.postimg.cc/W3Y0XPV9/Data-Manipulation-with-Pandas-Certificate-page-0001.jpg" },
+      { "id": 4, "title": "Joining Data with Pandas", "issuer": "DataCamp · 2024", "image": "https://i.postimg.cc/rmsrdY45/Joining-Data-with-Pandas-page-0001.jpg" }
+    ]
+  }
+}

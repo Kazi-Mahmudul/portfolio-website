@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "title": "Tutor - Mathematics and Science",
+    "period": "Jan 2022 - Present",
+    "details": "Providing personalized tutoring with a focus on problem-solving and conceptual clarity. Currently tutoring a student in the Netherlands remotely, using virtual tools for interactive and engaging learning. I tutor students across different grade levels, including those in the science faculty, tailoring lessons to their needs. Through my guidance, students have improved their performance in exams, strengthening their understanding and confidence in the subjects. This experience enhances my communication, adaptability, and analytical skills, making me effective in collaborative environments.",
+    "skills": ["Communication", "Mentorship", "Time Management", "Leadership", "Problem Solving", "Adaptability"]
+  },
+    {
+    "id": 2,
+    "title": "Software Quality Assurance Tester",
+    "company": "Sasthotech",
+    "type": "Contract · On-site",
+    "period": "Sep 2024 - Dec 2024 (4 months)",
+    "details": [
+      "Performed manual testing on Hospital Management System, identifying 50+ critical bugs",
+      "Collaborated with cross-functional teams to troubleshoot system issues",
+      "Developed technical documentation and test cases",
+      "Enhanced system usability through rigorous UI/UX testing"
+    ],
+    "skills": ["Manual Testing", "Healthcare IT System", "Communication", "Collaboration & Teamwork", "Problem Solving", "Adaptability"]
+  }
+]

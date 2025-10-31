@@ -1,0 +1,58 @@
+{
+  "featured": {
+    "id": "peyechi",
+    "title": "Peyechi.com - AI-Powered Smartphone Discovery Platform",
+    "description": "A cutting-edge mobile phone recommendation platform engineered for the Bangladesh market. Leveraging advanced AI algorithms and comprehensive device databases, Peyechi empowers users to discover their perfect smartphone through intelligent recommendations, real-time price tracking, and in-depth comparisons. Features AI-powered chat assistant, smart recommendations engine, comprehensive phone database, and Bangladesh-specific pricing support.",
+    "image": "https://i.postimg.cc/8c16VQ2h/peyechi-ui.png",
+    "technologies": [
+      "React",
+      "TypeScript",
+      "FastAPI",
+      "PostgreSQL",
+      "AI",
+      "Supabase",
+      "Docker",
+      "GCP"
+    ],
+    "links": {
+      "live": "https://peyechi.com",
+      "github": "https://github.com/Kazi-Mahmudul/product-recommender-ai"
+    },
+    "featured": true
+  },
+  "projects": [
+    {
+      "id": "employee-retention",
+      "title": "Employee Retention Analysis",
+      "description": "Explores employee retention trends using Python, SQL and Power BI visualization.",
+      "image": "https://i.ibb.co.com/DZXJhh0/Employee-Retention-Report.jpg",
+      "technologies": ["Python","SQL", "Power BI", "Excel"],
+      "links": {
+        "github": "https://github.com/Kazi-Mahmudul/Employee-Retention-Analysis",
+        "linkedin": "https://www.linkedin.com/posts/kazi-mahmudul-hasan_employeeretention-dataanalytics-sql-activity-7303809045105168385-BIH0"
+      }
+    },
+    {
+      "id": "churn-analysis",
+      "title": "Customer Churn Analysis - From Concept to Creation",
+      "description": "Built a comprehensive AI-driven customer churn analysis system that generates full analytics dashboards from user requirements and continuously evolves insights. Users can report issues or request improvements directly from the dashboard.",
+      "image": "https://i.ibb.co.com/n9kDD9r/Churn-Analysis-Dashboard-page-0001.jpg",
+      "technologies": ["SQL", "Python", "Power BI", "Machine Learning"],
+      "links": {
+        "github": "https://github.com/Kazi-Mahmudul/Churn-Analysis"
+      }
+    },
+    {
+      "id": "hospital-dashboard",
+      "title": "Hospital Emergency Room Dashboard",
+      "description": "Interactive dashboard analyzing patient demographics and wait times.",
+      "image": "https://i.postimg.cc/SKcRNQbt/maxresdefault.jpg",
+      "technologies": ["Power BI", "Excel"],
+      "links": {
+        "github": "https://github.com/Kazi-Mahmudul/Hospital-Emergency-Room-Dashboard",
+        "demo": "https://www.youtube.com/watch?v=tws4hvF8n7g",
+        "linkedin": "https://www.linkedin.com/posts/kazi-mahmudul-hasan_powerbi-datavisualization-healthcareanalytics-activity-7288409942900842496-fPft"
+      }
+    }
+  ]
+}

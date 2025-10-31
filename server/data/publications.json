@@ -1,0 +1,112 @@
+{
+  "publications": {
+    "published": [
+      {
+        "id": "autism-detection-mobilenet",
+        "title": "Enhanced MobileNetV1 for early autism detection: A transfer learning approach using facial imagery",
+        "authors": ["K. M. Hasan", "et al."],
+        "role": "Main Author",
+        "conference": "2025 International Conference on Quantum Photonics, Artificial Intelligence, and Networking (QPAIN)",
+        "year": "2025",
+        "pages": "1–6",
+        "publisher": "IEEE",
+        "doi": "10.1109/QPAIN66474.2025.11172046",
+        "link": "https://ieeexplore.ieee.org/document/11172046",
+        "dateAdded": "29 September 2025",
+        "type": "Conference Paper",
+        "status": "published",
+        "abstract": "This research presents an enhanced MobileNetV1 architecture for early autism detection using facial imagery analysis. The study employs transfer learning techniques to improve detection accuracy while maintaining computational efficiency, making it suitable for real-world applications in healthcare settings.",
+        "keywords": [
+          "Autism Detection",
+          "MobileNetV1",
+          "Transfer Learning",
+          "Facial Recognition",
+          "Deep Learning",
+          "Healthcare AI"
+        ],
+        "citation": "K. M. Hasan et al., \"Enhanced MobileNetV1 for early autism detection: A transfer learning approach using facial imagery,\" in 2025 International Conference on Quantum Photonics, Artificial Intelligence, and Networking (QPAIN), 2025, pp. 1–6."
+      },
+      {
+        "id": "plant-disease-detection",
+        "title": "Advancements in plant disease detection: A comparative study of deep learning-based classification models",
+        "authors": ["H. R. Hemel", "K. M. Hasan", "et al."],
+        "role": "Co-Author",
+        "conference": "2025 International Conference on Quantum Photonics, Artificial Intelligence, and Networking (QPAIN)",
+        "year": "2025",
+        "pages": "1–5",
+        "publisher": "IEEE",
+        "doi": "10.1109/QPAIN66474.2025.11171725",
+        "link": "https://ieeexplore.ieee.org/abstract/document/11171725",
+        "dateAdded": "29 September 2025",
+        "type": "Conference Paper",
+        "status": "published",
+        "abstract": "This paper presents a comprehensive comparative analysis of various deep learning models for plant disease detection. The study evaluates different classification architectures and their effectiveness in identifying plant diseases from leaf imagery, contributing to precision agriculture and crop management.",
+        "keywords": [
+          "Plant Disease Detection",
+          "Deep Learning",
+          "Classification Models",
+          "Agriculture AI",
+          "Computer Vision",
+          "Precision Agriculture"
+        ],
+        "citation": "H. R. Hemel et al., \"Advancements in plant disease detection: A comparative study of deep learning-based classification models,\" in 2025 International Conference on Quantum Photonics, Artificial Intelligence, and Networking (QPAIN), 2025, pp. 1–5."
+      }
+    ],
+    "submitted": [
+      {
+        "id": "submitted-paper-1",
+        "title": "Research Paper Under Review",
+        "authors": ["K. M. Hasan", "et al."],
+        "role": "Main Author",
+        "venue": "International Conference/Journal",
+        "year": "2025",
+        "type": "Conference Paper",
+        "status": "submitted",
+        "abstract": "This research paper is currently under review at a prestigious international venue. Details will be updated upon acceptance.",
+        "keywords": ["Machine Learning", "AI", "Data Science"],
+        "submissionDate": "2025"
+      },
+      {
+        "id": "submitted-paper-2",
+        "title": "Research Paper Under Review",
+        "authors": ["K. M. Hasan", "et al."],
+        "role": "Co-Author",
+        "venue": "International Conference/Journal",
+        "year": "2025",
+        "type": "Conference Paper",
+        "status": "submitted",
+        "abstract": "This research paper is currently under review at a prestigious international venue. Details will be updated upon acceptance.",
+        "keywords": [
+          "Artificial Intelligence",
+          "Deep Learning",
+          "Computer Vision"
+        ],
+        "submissionDate": "2025"
+      }
+    ],
+    "inProgress": [
+      {
+        "id": "journal-paper-1",
+        "title": "Journal Paper in Progress",
+        "authors": ["K. M. Hasan", "et al."],
+        "role": "Main Author",
+        "venue": "International Journal",
+        "year": "2025",
+        "type": "Journal Paper",
+        "status": "in-progress",
+        "abstract": "Currently working on a comprehensive journal paper that will contribute significant insights to the field of AI and machine learning.",
+        "keywords": ["Journal Publication", "AI Research", "Machine Learning"],
+        "expectedSubmission": "2025"
+      }
+    ]
+  },
+  "stats": {
+    "totalPublications": 2,
+    "totalSubmitted": 2,
+    "totalInProgress": 1,
+    "hIndex": 1,
+    "totalCitations": 0,
+    "conferences": ["QPAIN 2025"],
+    "publishers": ["IEEE"]
+  }
+}

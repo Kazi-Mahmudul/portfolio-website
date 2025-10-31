@@ -1,0 +1,46 @@
+{
+  "name": "Kazi Mahmudul Hasan",
+  "title": "AI/ML Enthusiast | Computer Science Student",
+  "location": "Rajshahi, Bangladesh",
+  "email": "shafi16221@gmail.com",
+  "bio": "AI/ML enthusiast with a strong foundation in Computer Science (3.95 CGPA) and hands-on experience in developing intelligent systems. I'm passionate about leveraging artificial intelligence and machine learning to automate workflows, enhance user experiences, and solve complex real-world problems.",
+  "description": "Currently pursuing my B.Sc. in Computer Science & Engineering, I combine theoretical knowledge with practical application in data analysis, machine learning, and software development. My work spans from data visualization and statistical modeling to building AI-powered solutions that drive innovation.",
+  "profileImage": "https://i.postimg.cc/wj41kKy4/pic1.jpg",
+  "skills": {
+    "programming": ["Python", "SQL", "JavaScript", "FastAPI"],
+    "dataScience": [
+      "Machine Learning",
+      "Data Visualization",
+      "Statistical Modeling",
+      "Pandas",
+      "Scikit-Learn"
+    ],
+    "aiDevelopment": [
+      "AI Integration",
+      "RAG Pipeline",
+      "NLP Processing",
+      "Prompt Engineering",
+      "AI-Powered Recommendations"
+    ],
+    "tools": ["Power BI", "PostgreSQL", "Git", "Streamlit", "Excel"],
+    "coreCompetencies": [
+      "Problem Solving",
+      "Research",
+      "Communication",
+      "Leadership",
+      "Analytical Writing"
+    ]
+  },
+  "socialLinks": {
+    "linkedin": "https://www.linkedin.com/in/kazi-mahmudul-hasan",
+    "github": "https://github.com/Kazi-Mahmudul",
+    "youtube": "https://www.youtube.com/@mahmudulhasanshafi6967",
+    "email": "mailto:shafi16221@gmail.com"
+  },
+  "stats": {
+    "cgpa": "3.95",
+    "publications": "2",
+    "projects": "10+",
+    "certifications": "20+"
+  }
+}
