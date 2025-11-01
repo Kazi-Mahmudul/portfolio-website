@@ -15,15 +15,20 @@
   ],
   "routes": [
     {
+      "src": "/api$",
+      "dest": "server/index.js"
+    },
+    {
       "src": "/api/(.*)",
       "dest": "server/index.js"
     },
     {
-      "src": "/(.*)",
-      "dest": "client/dist/$1"
+      "src": "/assets/(.*)",
+      "dest": "client/dist/assets/$1"
     },
     {
-      "handle": "filesystem"
+      "src": "/(.*\\.(js|css|png|jpg|jpeg|gif|svg|ico|woff|woff2|ttf|eot))",
+      "dest": "client/dist/$1"
     },
     {
       "src": "/(.*)",

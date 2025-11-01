@@ -42,6 +42,24 @@ app.use('/api/certifications', require('./routes/certifications'));
 app.use('/api/publications', require('./routes/publications'));
 app.use('/api/contact', require('./routes/contact'));
 
+// API root route
+app.get('/api', (req, res) => {
+  res.json({ 
+    message: 'Portfolio API', 
+    status: 'Running',
+    endpoints: [
+      '/api/health',
+      '/api/profile',
+      '/api/projects',
+      '/api/education',
+      '/api/experience',
+      '/api/certifications',
+      '/api/publications',
+      '/api/contact'
+    ]
+  });
+});
+
 // Health check
 app.get('/api/health', (req, res) => {
   res.json({ status: 'OK', message: 'Server is running' });
