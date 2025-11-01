@@ -2,9 +2,6 @@
 node_modules/
 */node_modules/
 
-# Production builds
-client/dist/
-server/dist/
 
 # Environment variables
 .env
@@ -65,7 +62,6 @@ jspm_packages/
 
 # Nuxt.js build / generate output
 .nuxt
-dist
 
 # Gatsby files
 .cache/
