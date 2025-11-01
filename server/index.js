@@ -15,7 +15,25 @@ app.use(cors({
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
-// Routes
+// Root route for server
+app.get('/', (req, res) => {
+  res.json({ 
+    message: 'Portfolio API Server', 
+    status: 'Running',
+    endpoints: [
+      '/api/health',
+      '/api/profile',
+      '/api/projects',
+      '/api/education',
+      '/api/experience',
+      '/api/certifications',
+      '/api/publications',
+      '/api/contact'
+    ]
+  });
+});
+
+// API Routes
 app.use('/api/profile', require('./routes/profile'));
 app.use('/api/projects', require('./routes/projects'));
 app.use('/api/education', require('./routes/education'));
@@ -35,11 +53,16 @@ app.use((err, req, res, next) => {
   res.status(500).json({ message: 'Something went wrong!' });
 });
 
-// 404 handler
-app.use('*', (req, res) => {
-  res.status(404).json({ message: 'Route not found' });
+// 404 handler for API routes only
+app.use('/api/*', (req, res) => {
+  res.status(404).json({ message: 'API route not found' });
 });
 
-app.listen(PORT, () => {
-  console.log(`Server is running on port ${PORT}`);
-});
+// For Vercel deployment
+if (process.env.NODE_ENV !== 'production') {
+  app.listen(PORT, () => {
+    console.log(`Server is running on port ${PORT}`);
+  });
+}
+
+module.exports = app;
