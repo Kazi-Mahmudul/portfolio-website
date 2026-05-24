@@ -154,6 +154,7 @@ export const projects: Project[] = [
     ],
     images: [],
     github: "https://github.com/Kazi-Mahmudul/AI-Outbound-VoiceCall-Agent",
+    live: "",
     featured: true,
     tags: ["Voice AI", "Automation", "CRM Integration", "LLM"]
   },
