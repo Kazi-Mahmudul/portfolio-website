@@ -80,6 +80,6 @@ A modern, responsive portfolio website built with React, Node.js, and Tailwind C
 
 ## 📞 Contact
 
-- **Email**: shafi16221@gmail.com
+- **Email**: km.hasan.tech@gmail.com
 - **LinkedIn**: [Kazi Mahmudul Hasan](https://www.linkedin.com/in/kazi-mahmudul-hasan)
 - **GitHub**: [Kazi-Mahmudul](https://github.com/Kazi-Mahmudul)
